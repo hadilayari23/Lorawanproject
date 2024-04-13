@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #4c00821c;
+  /* background-color: #e8f3fcbd; */
+}
+
+.image_cover {
+  background-image: url('./Pages/logo/lighting.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* .App nav {
+  position: sticky;
+} */
+
+main {
+  padding-top: 65px;
+  /* height: 100%; */
+  /* min-height: 100vh; */
+  /* height: 100vh; */
+  /* background-color: #e8f3fcbd; */
+}
+
+.main {
+  margin-left: 65px;
+  transition: all 0.4s;
+  z-index: -9;
+  min-height: 100%;
+  /* border-style: solid; */
+}
+
+.main.active {
+  margin-left: 240px;
+  transition: all 0.2s;
+}
+
+main .MuiDrawer-root .MuiPaper-root {
+  margin-top: 64.5px;
+}
+
+.img1{
+ height: 25pc; 
+  width: 100%;
+}
+
+.header {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
